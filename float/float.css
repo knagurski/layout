@@ -1,0 +1,86 @@
+.container {
+    overflow: hidden;
+    position: relative;
+}
+
+.content_wrapper {
+    width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#header {
+    background-color: slategray;
+}
+
+#header .content_wrapper {
+    margin:30px auto;
+}
+
+#logo {
+    float:left;
+}
+
+#headers {
+    float: left;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+#headers h2 {
+    text-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+#nav {
+    background-color: #506070;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav ul li {
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+#sidebar {
+    background-color: slategray;
+    padding: 20px;
+    color: white;
+    width: 160px;
+    float: left;
+    border-radius: 10px;
+}
+
+#main {
+    margin-left: 220px;
+    overflow: hidden;
+}
+
+.card {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 200px;
+    padding: 20px;
+    background-color: #e2e6e9;
+    border-radius: 10px;
+}
+
+.card button {
+    background-color: slategray;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#footer {
+    background-color: #506070;
+    color: white;
+}
